@@ -67,4 +67,12 @@ Travis Ci:
 4.  Terminate - pkill NODE_ENV
 
 Github:
-To Find out if remote is setup:
+To Find out if remote is setup: git remote -v
+To Remove origin: git remote remove origin
+New Origin: git remote add origin git@github.com:alexrahgozar/NodeCI.git
+
+Travis Git:
+git add .
+git commit -m "Travis Config"
+git status
+git push origin master

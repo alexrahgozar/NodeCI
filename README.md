@@ -47,15 +47,15 @@ Integration Testing - jest & puppeteer
 
 example with session and keygrip
 
-1.  const session = "eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWMzNDEwMDhkNWEzYWUyNmVhMzg1Yzg5In19"
+1.  const session = "string"
 2.  const Buffer = require("safe-buffer").Buffer
 3.  Buffer.from(session, "base64").toString("utf8")
 
-4.  const session = "eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWMzNDEwMDhkNWEzYWUyNmVhMzg1Yzg5In19"
+4.  const session = "string"
 5.  const Keygrip = require("keygrip")
-6.  const keygrip = new Keygrip(["123123123"])
+6.  const keygrip = new Keygrip(["int"])
 7.  keygrip.sign("session=" + session)
-8.  keygrip.verify("session=" + session, "12CImOp9Rao0X0EQAN49D2LTn7Y")
+8.  keygrip.verify("session=" + session, "string")
 
 Continuous Integration
 

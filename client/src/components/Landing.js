@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Landing = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1>
-        Blogster!
-      </h1>
+    <div style={{ textAlign: "center", color: "#FF6633" }}>
+      <h1 style={{ color: "#FF6633" }}>Blogster!</h1>
       Write private blogs
     </div>
   );
